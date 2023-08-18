@@ -2,6 +2,8 @@ github.com/adrianmo/go-nmea v1.3.0 h1:BFrLRj/oIh+DYujIKpuQievq7X3NDHYq57kNgsfr2G
 github.com/adrianmo/go-nmea v1.3.0/go.mod h1:u8bPnpKt/D/5rll/5l9f6iDfeq5WZW0+/SXdkwix6Tg=
 github.com/adrianmo/go-nmea v1.8.0 h1:KE6xDTMQNoKoyCb7IQRXGOIbn4WJlUKwIuRD4LbpKlM=
 github.com/adrianmo/go-nmea v1.8.0/go.mod h1:u8bPnpKt/D/5rll/5l9f6iDfeq5WZW0+/SXdkwix6Tg=
+github.com/adrianmo/go-nmea v1.8.1-0.20230702202557-a60cdb4c706d h1:7I4a8fr8pXLOv2JQuULauXmVncFqCGOLoR1ZwNOTnAo=
+github.com/adrianmo/go-nmea v1.8.1-0.20230702202557-a60cdb4c706d/go.mod h1:u8bPnpKt/D/5rll/5l9f6iDfeq5WZW0+/SXdkwix6Tg=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
