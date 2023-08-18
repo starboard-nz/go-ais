@@ -4,8 +4,6 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/BertoldVdb/go-ais"
-
 	nmea "github.com/adrianmo/go-nmea"
 )
 
@@ -153,7 +151,7 @@ func (nc *NMEACodec) EncodeSentence(p VdmPacket) []string {
 		output[0] = fmt.Sprintf("!%s%s,1,1,,%c,%s,%d", p.TalkerID, p.MessageType, channel, asciiPayload, fillBits)
 		output[0] = addChecksum(output[0])
 
-		tagBlock := encodeTagBlock(&p.TagBlock, 1,1,0, false)
+		tagBlock := encodeTagBlock(&p.TagBlock, 1, 1, 0, false)
 		if tagBlock != "" {
 			output[0] = fmt.Sprintf("%s%s", tagBlock, output[0])
 		}

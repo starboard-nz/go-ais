@@ -3,8 +3,7 @@ package ais_test
 import (
 	"bufio"
 	"compress/gzip"
-	"github.com/BertoldVdb/go-ais"
-	"github.com/BertoldVdb/go-ais/aisnmea"
+	"github.com/nilsmagnus/go-ais/aisnmea"
 	"io"
 	"os"
 	"reflect"
