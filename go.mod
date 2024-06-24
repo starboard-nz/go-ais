@@ -1,5 +1,5 @@
-module github.com/BertoldVdb/go-ais
+module github.com/nilsmagnus/go-ais
 
-go 1.13
+go 1.20
 
-require github.com/adrianmo/go-nmea v1.3.0
+require github.com/adrianmo/go-nmea v1.8.0

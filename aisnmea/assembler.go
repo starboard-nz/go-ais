@@ -1,7 +1,6 @@
 package aisnmea
 
 import (
-	"github.com/BertoldVdb/go-ais"
 	nmea "github.com/adrianmo/go-nmea"
 )
 
@@ -12,7 +11,7 @@ type VdmPacket struct {
 	MessageType string
 	Payload     []byte
 	Packet      ais.Packet
-	TagBlock 	nmea.TagBlock
+	TagBlock    nmea.TagBlock
 }
 
 type vdmAssemblyWork struct {

@@ -8,7 +8,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/BertoldVdb/go-ais"
 	"github.com/adrianmo/go-nmea"
 )
 
